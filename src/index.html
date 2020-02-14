@@ -58,16 +58,16 @@
         <div class="close-btn">close</div>
         <ul id="menu">
           <li>
-            <a href="index.html"> home <span>.</span> </a>
+            <a href="index.html">home<span>.</span></a>
           </li>
           <li>
-            <a href="work.html"> work <span>.</span> </a>
+            <a href="work.html">work<span>.</span></a>
           </li>
           <li>
-            <a href="about.html"> about me<span>.</span> </a>
+            <a href="about.html">about me<span>.</span></a>
           </li>
           <li>
-            <a href="contact.html"> contact <span>.</span> </a>
+            <a href="contact.html">contact<span>.</span></a>
           </li>
         </ul>
       </div>
@@ -181,6 +181,7 @@
                   <li id="fb">fb</li>
                   <li id="ig">ig</li>
                   <li id="tw">tw</li>
+                  <li id="git">github</li>
                 </ul>
 
                 <br />
@@ -188,7 +189,7 @@
               </div>
 
               <div class="col-lg-4" id="address">
-                <p>hello</p>
+                <p>let's talk</p>
                 <h4>sale.novakovic97@gmail.com</h4>
                 <br />
                 <br />
@@ -208,5 +209,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+      //navigation
+      $("#toggle").click(function() {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
+      });
+
+      $("#resize ul li a").click(function() {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
+      });
+
+      $(".close-btn").click(function() {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
+      });
+
+      new WOW().init();
+    </script>
   </body>
 </html>
