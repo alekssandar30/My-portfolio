@@ -1,0 +1,6 @@
+Used technology:
+1.Bootstrap
+2.WOW.js + animate.css => for scroll reveal animations
+3.Tweenmax => for navigation
+4.Ionicons
+5.Google font(Roboto Mono)
