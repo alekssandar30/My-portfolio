@@ -315,7 +315,7 @@ h6 {
 }
 
 .project2 {
-  background: url(../src/images/hotel-res.jpg) no-repeat 50% 50%;
+  background: url(../src/images/hotel-res.png) no-repeat 50% 50%;
   background-size: cover;
   border-radius: 20px;
 }
@@ -333,7 +333,7 @@ h6 {
 }
 
 .project3 {
-  background: url(../src/images/stefan-portfolio.jpg) no-repeat 50% 50%;
+  background: url(../src/images/stefan-portfolio.png) no-repeat 50% 50%;
   background-size: cover;
   border-radius: 20px;
 }
@@ -351,8 +351,7 @@ h6 {
 }
 
 .project4 {
-  background: url(https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
-    no-repeat 50% 50%;
+  background: url(../src/images/pacman.png) no-repeat 50% 50%;
   background-size: cover;
   border-radius: 20px;
 }
