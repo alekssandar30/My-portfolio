@@ -308,7 +308,7 @@ h6 {
   position: relative;
   color: #fff;
   display: block;
-  top: 8%;
+  top: -5%;
   left: -60%;
   right: 0;
   bottom: 0;
@@ -547,7 +547,7 @@ h6 {
 
 /*Contact form*/
 #contact-form {
-  margin: 5% 1.4%;
+  margin: 5% 25%;
 }
 
 #contact-form ul {
@@ -566,7 +566,7 @@ h6 {
 
 #contact-form label {
   display: block;
-  font-size: 0.8em;
+  font-size: 1em;
   color: #999;
   padding-left: 5px;
 }
