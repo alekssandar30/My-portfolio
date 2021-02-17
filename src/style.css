@@ -296,13 +296,18 @@ h6 {
   height: 500px;
 }
 
+.project:hover {
+  cursor: pointer;
+}
+
 .project1 {
-  background: url(../src/images/image-finder.png) no-repeat 50% 50%;
+  background: url(../src/images/nct-management.PNG) no-repeat 50% 50%;
   background-size: cover;
+  object-fit: cover;
   border-radius: 20px;
 }
 .project1::after {
-  content: "image-finder.";
+  content: "Management app.";
   font-family: "Roboto Mono";
   font-size: 36px;
   position: relative;
@@ -315,12 +320,13 @@ h6 {
 }
 
 .project2 {
-  background: url(../src/images/hotel-res.png) no-repeat 50% 50%;
+  /* background: url(../src/images/hotel-res.png) no-repeat 50% 50%; */
+  background: url(../src/images/bookIT.PNG) no-repeat 50% 50%;
   background-size: cover;
   border-radius: 20px;
 }
 .project2::after {
-  content: "hotel-reservation.";
+  content: "BookIT.";
   font-family: "Roboto Mono";
   font-size: 36px;
   position: relative;
@@ -338,7 +344,7 @@ h6 {
   border-radius: 20px;
 }
 .project3::after {
-  content: "Portfolio";
+  content: "Portfolio.";
   font-family: "Roboto Mono";
   font-size: 36px;
   position: relative;
@@ -532,14 +538,21 @@ h6 {
 }
 
 .image {
-  background: url(https://images.unsplash.com/photo-1549820610-ec7475b33969?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
+  /* background: url(https://images.unsplash.com/photo-1549820610-ec7475b33969?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
+    no-repeat 50% 70%; */
+  background: url(https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjd8fGNvZGluZ3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=60)
     no-repeat 50% 70%;
   border-radius: 10px;
 }
 
 @media (max-width: 768px) {
-  .image {
+  /* .image {
     background: url(https://images.unsplash.com/photo-1504401774599-1b5378bfaae3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)
+      no-repeat 50% 50%;
+    border-radius: 10px;
+  } */
+  .image {
+    background: url(https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjd8fGNvZGluZ3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)
       no-repeat 50% 50%;
     border-radius: 10px;
   }
@@ -617,4 +630,18 @@ textarea:focus {
     margin: 5% -8%;
     width: 98%;
   }
+}
+
+/*Project Page*/
+
+.prev,
+.next p {
+  color: grey;
+}
+
+.prev p {
+  text-align: left;
+}
+.next p {
+  text-align: right;
 }
