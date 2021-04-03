@@ -38,9 +38,9 @@
           <li>
             <a href="index.html">home<span>.</span> </a>
           </li>
-          <li>
+          <!-- <li>
             <a href="work.html">work<span>.</span> </a>
-          </li>
+          </li> -->
           <li>
             <a href="about.html">about me<span>.</span> </a>
           </li>
@@ -60,9 +60,9 @@
           <li>
             <a href="index.html">home<span>.</span></a>
           </li>
-          <li>
+          <!-- <li>
             <a href="work.html">work<span>.</span></a>
-          </li>
+          </li> -->
           <li>
             <a href="about.html">about me<span>.</span></a>
           </li>
@@ -331,10 +331,9 @@
           tmp = params[i].split("=");
           data[tmp[0]] = tmp[1];
         }
-        console.log(data);
+
         document.getElementById("project_name").innerHTML = data.name;
-        document.getElementById("service").innerHTML =
-          data.service.split("%20")[0] + " " + data.service.replaceAll("%20", ' ');
+        document.getElementById("service").innerHTML = data.service.replaceAll("%20", ' ');
         document.getElementById("tech").innerHTML = data.tech.replaceAll('%20', ' ');
         document.getElementById("desc").innerHTML =
           "Project description: " + data.desc.replaceAll("%20", " ");

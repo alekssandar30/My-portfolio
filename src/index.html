@@ -43,9 +43,9 @@
           <li>
             <a href="index.html">home<span>.</span> </a>
           </li>
-          <li>
+          <!-- <li>
             <a href="work.html">work<span>.</span> </a>
-          </li>
+          </li> -->
           <li>
             <a href="about.html">about me<span>.</span> </a>
           </li>
@@ -65,9 +65,9 @@
           <li>
             <a href="index.html">home<span>.</span></a>
           </li>
-          <li>
+          <!-- <li>
             <a href="work.html">work<span>.</span></a>
-          </li>
+          </li> -->
           <li>
             <a href="about.html">about me<span>.</span></a>
           </li>
@@ -101,37 +101,80 @@
         <div class="whitespace"></div>
         <div class="whitespace"></div>
 
+        <!-- Project 1 -->
         <div class="row">
-          <div class="col-lg-8"></div>
+          <div class="col-lg-7"></div>
 
           <div
             class="col-lg-4 project project1 wow fadeInUp"
             onclick="showProject('ManagementApp', 'Web Development',
-             'Angular9 and Java', 'true', 'some description', 'https://github.com/alekssandar30')"
+             'Angular9, Java EJB, SQL', 'true', 
+             `
+              This is app that I have built for Credit Agricole bank. It is basically
+              custom CMS system for their main application, admin can customize whole application
+              through this app. I can not show this app because of the contract with company.
+             `, 'https://github.com/alekssandar30')"
             
           ></div>
         </div>
 
         <div class="whitespace"></div>
 
+        <!-- Project 2 -->
         <div class="row">
+          <div class="col-lg-1"></div>
           <div
-            class="col-lg-6 project project2 wow fadeInUp"
+            class="col-lg-5 project project2 wow fadeInUp"
             onclick="showProject('BookIT', 'Web Development',
-             'Angular9 and .NET Core', 'true', 'some description', 'https://github.com/alekssandar30/WEB2-BookIT')"
+             'Angular9, .NET Core, SQL', 'true', `
+             This is one of my favourite project from college. I worked on this with my
+             friend Vukasin and we wanted to learn .NET Core so we built our backend with it
+             and for the fronted app we decided that Angular is the right choice.
+             In this application user can book flight or car reservation or both.
+             We have different types of users such as: Admin, Flight company admin, Car company admin,
+             user. Both flight company admin and car company admin have different functionalities for
+             managing their companies, flights or cars... 
+             I hope that in near future we will upgrade this project into microservices with docker
+             and kubernetes for better performance and application scalability.
+             `, 'https://github.com/alekssandar30/WEB2-BookIT')"
           ></div>
           <div class="col-lg-6"></div>
         </div>
 
         <div class="whitespace"></div>
 
+        <!-- Project 3 -->
         <div class="row">
           <div class="col-lg-7"></div>
+          <div
+            class="col-lg-4 col-sm-12 project project3 wow fadeInUp"
+            onclick="showProject('Srbilix', 'Web Development',
+             'ReactJS, Java Spring Boot, MongoDB', 'false', `
+             Online platform for watching movies for free. First I made netflix clone, but I had
+             only fronted app and then I wanted to have backend service so the user can really
+             watch movies. I worked on it with my friend who is Java expert :)
+             This app is still under construction and we are working on getting tv series and expanding
+             our database with more movies.
+             `, 'https://srbilix.web.app/')"
+          ></div>
+          <div class="col-lg-6"></div>
+        </div>
+
+        <div class="whitespace"></div>
+
+        <!-- Project 4 -->
+        <div class="row">
+          <div class="col-lg-1"></div>
 
           <div
-            class="col-lg-4 project project3 wow fadeInUp"
+            class="col-lg-4 project project4 wow fadeInUp"
             onclick="showProject('Portfolio', 'Web Development',
-             'HTML, CSS, JS', 'true', 'some description', 'https://stefan-velbl.netlify.app/')"
+             'HTML, CSS, JS', 'true', `
+              This is small portfolio website that I have built for my brother, it is an
+              old project where I was learning css and some cool designs with javascript.
+              It has a lot of room for improvement but it is very special project for my because
+              it reminds me of days when I started with web development.
+             `, 'https://stefan-velbl.netlify.app/')"
           ></div>
 
           <div class="col-lg-1"></div>
@@ -139,12 +182,21 @@
 
         <div class="whitespace"></div>
 
+        <!-- Project 5 -->
         <div class="row">
-          <div class="col-lg-1"></div>
+          <div class="col-lg-7"></div>
           <div
-            class="col-lg-5 project project4 wow fadeInUp"
+            class="col-lg-4 project project5 wow fadeInUp"
             onclick="showProject('Pac-Man', 'Desktop game app',
-             'Python (PYQT5)', 'true', 'some description', 'https://github.com/alekssandar30/Pac-Man')"
+             'Python (PYQT5)', 'true', `
+              We all know famous pac-man game, this is my version of it. The app is made 
+              with python using PYQT5 because I always wanted to learn that language.
+              I learned a lot about concurent proccesses and multi-threading in python.
+              The overall look of application is not very good because I do not like 
+              PYQT library and I had very short deadline so I just had to make it work.
+              I was thinking to make a better version of this app as a web application
+              using javascript and that is something that I will consider in the future.
+             `, 'https://github.com/alekssandar30/Pac-Man')"
           ></div>
           <div class="col-lg-6"></div>
         </div>
@@ -161,7 +213,7 @@
 
           <div class="collab">
             <div class="row">
-              <div class="col-lg-12">
+              <div class="col-lg-12 col-sm-10 col-md-10">
                 <p class="wow fadeInUp">
                   Got an interesting project?
                   <a href="contact.html" style="color: #fff">Contact me.</a>
